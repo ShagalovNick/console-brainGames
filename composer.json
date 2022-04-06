@@ -1,0 +1,25 @@
+{
+    "name": "nikolay/console-brain-games",
+    "authors": [
+        {
+            "name": "ShagalovNick",
+            "email": "sekunda-61@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Choice.php",
+            "src/Equation.php",
+            "src/User.php",
+            "src/games/Progression.php",            
+            "src/games/Prime_numbers.php",
+            "src/games/Greatest_common_divisor.php",
+            "src/games/Calculator.php",
+            "src/games/Even_number.php"
+        ]
+    },
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    }
+}
